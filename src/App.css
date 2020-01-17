@@ -1,0 +1,374 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  min-height: 750px;
+}
+
+#wrapper #header {
+  height: 65px;
+  background-color: black;
+}
+
+#wrapper #header #header-master {
+  height: 65px;
+  width: 1000px;
+  margin: auto;
+}
+
+#wrapper #header #header-master #header-zalora {
+  width: 150px;
+  height: 65px;
+  float: left;
+}
+
+#wrapper #header #header-master #header-zalora p {
+  color: white;
+  letter-spacing: 6px;
+  font-size: 30px;
+  line-height: 65px;
+}
+
+#wrapper #header #header-master #header-gender {
+  width: 300px;
+  height: 65px;
+  float: left;
+}
+
+#wrapper #header #header-master #header-gender ul {
+  list-style-type: none;
+}
+
+#wrapper #header #header-master #header-gender ul li {
+  float: left;
+  text-align: center;
+  line-height: 65px;
+}
+
+#wrapper #header #header-master #header-gender ul li a {
+  margin-left: 30px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+#wrapper #header #header-master #header-gender ul li a:hover {
+  text-decoration: underline;
+}
+
+#wrapper #header #header-master #header-cari {
+  width: 370px;
+  height: 65px;
+  float: left;
+}
+
+#wrapper #header #header-master #header-cari input {
+  width: 350px;
+  height: 20px;
+  margin-top: 23px;
+}
+
+#wrapper #header #header-master #header-cari #iconcari {
+  position: relative;
+  z-index: 1;
+  left: 88%;
+  top: -23px;
+  cursor: pointer;
+}
+
+#wrapper #header #header-master #header-cari #iconcari img {
+  height: 23px;
+  width: auto;
+}
+
+#wrapper #header #header-master #header-logo {
+  height: 65px;
+  width: 180px;
+  float: left;
+}
+
+#wrapper #header #header-master #header-logo ul {
+  list-style-type: none;
+}
+
+#wrapper #header #header-master #header-logo ul li {
+  float: left;
+  text-align: center;
+  width: 60px;
+}
+
+#wrapper #header #header-master #header-logo ul li img {
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+#wrapper #header #header-master #header-logo ul li #heart {
+  margin-top: 22px;
+}
+
+#wrapper #menu {
+  height: 40px;
+  background-color: #cfd4d1;
+}
+
+#wrapper #menu #menu-isi {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+#wrapper #menu #menu-isi ul {
+  list-style-type: none;
+}
+
+#wrapper #menu #menu-isi ul li {
+  float: left;
+  text-align: center;
+}
+
+#wrapper #menu #menu-isi ul li a {
+  text-decoration: none;
+  margin-left: 13px;
+  color: black;
+  font-size: 12px;
+  line-height: 40px;
+  display: block;
+}
+
+#wrapper #menu #menu-isi ul li a:hover {
+  text-decoration: underline;
+}
+
+#wrapper #menu #menu-isi #sale {
+  float: right;
+  color: red;
+  margin-left: 90px;
+}
+
+#wrapper #menu2 {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+#wrapper #menu2 ul {
+  list-style-type: none;
+  float: left;
+  margin-top: 8px;
+}
+
+#wrapper #menu2 ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+#wrapper #menu2 ul li img {
+  float: left;
+
+}
+
+#wrapper #menu2 ul li a {
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 40px;
+  color: black;
+}
+
+#wrapper #menu2 ul li a:hover {
+  text-decoration: underline;
+}
+
+#wrapper #menu2 ul li #persen {
+  margin-top: 3px;
+  margin-right: 4px;
+}
+
+#wrapper #menu2 #hp {
+  height: 35px;
+  width: 240px;
+  margin-left: 70px;
+  margin-top: 8px;
+}
+
+#wrapper #menu2 #hp:hover {
+  cursor: pointer;
+}
+
+#wrapper #content {
+  margin: auto;
+  width: 1000px;
+  height: 2000px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+#wrapper #content #gambar-besar {
+  height: 500px;
+  width: 1000px;
+  cursor: pointer;
+}
+
+#wrapper #content #gambar-besar img {
+  width: 1000px;
+}
+
+#wrapper #content #bawah-gambar-besar {
+  height: 70px;
+  width: 1000px;
+  background-color: black;
+}
+
+#wrapper #content #bawah-gambar-besar img {
+  height: 60px;
+  width: 900px;
+  margin-top: 5px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#wrapper #content #gambarke2 {
+  height: 250px;
+  width: 1000px;
+  margin-top: 30px;
+}
+
+#wrapper #content #gambarke2 img {
+  width: 1000px;
+  cursor: pointer;
+}
+
+#wrapper #content #gambar-bank {
+  height: 40px;
+  width: 1000px;
+  margin-top: 30px;
+}
+
+#wrapper #content #gambar-bank img {
+  width: 1000px;
+  cursor: pointer;
+}
+
+#wrapper #content #brands {
+  margin-top: 80px;
+  width: 1000px;
+  min-height: 300px;
+}
+
+#wrapper #content #brands h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#wrapper #content #brands #logo-brand {
+  margin-top: 80px;
+}
+
+#wrapper #content #brands #logo-brand img {
+  width: 142px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+
+#wrapper #content #model #judul-model h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#wrapper #content #model #modelnya {
+  width: 1000px;
+  min-height: 300px;
+  margin-top: 50px;
+}
+
+#wrapper #content #model #modelnya #pertama {
+  width: 300px;
+  min-height: 300px;
+  float: left;
+  margin-right: 33px;
+}
+
+#wrapper #content #model #modelnya #pertama img {
+  width: 300px;
+  height: 300px;
+}
+
+#wrapper #content #model #modelnya #pertama h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 530;
+  text-align: center;
+}
+
+#wrapper #content #model #modelnya #pertama p {
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#wrapper #content #model #modelnya #kedua {
+  width: 300px;
+  min-height: 300px;
+  float: left;
+  margin-right: 33px;
+}
+
+#wrapper #content #model #modelnya #kedua img {
+  width: 300px;
+  height: 300px;
+}
+
+#wrapper #content #model #modelnya #kedua h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 530;
+  text-align: center;
+}
+
+#wrapper #content #model #modelnya #kedua p {
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#wrapper #content #model #modelnya #ketiga {
+  width: 300px;
+  min-height: 300px;
+  float: left;
+}
+
+#wrapper #content #model #modelnya #ketiga img {
+  width: 300px;
+  height: 300px;
+}
+
+#wrapper #content #model #modelnya #ketiga h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 530px;
+  text-align: center;
+}
+
+#wrapper #content #model #modelnya #ketiga p {
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#wrapper #footer{
+  height:50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+p:hover{
+  cursor: pointer;
+}
